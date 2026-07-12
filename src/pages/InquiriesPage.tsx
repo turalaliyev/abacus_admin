@@ -130,7 +130,14 @@ export function InquiriesPage() {
         loading={isLoading}
         dataSource={submissions}
         rowKey="id"
-        locale={{ emptyText: <Empty icon={<InboxOutlined />} description="Hələ müraciət yoxdur" /> }}
+        locale={{
+          emptyText: (
+            <Empty
+              image={<InboxOutlined style={{ fontSize: 48 }} />}
+              description="Hələ müraciət yoxdur"
+            />
+          ),
+        }}
         rowClassName={(row) => row.status === 'new' ? 'font-semibold' : ''}
         columns={[
           {

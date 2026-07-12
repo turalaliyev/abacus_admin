@@ -96,7 +96,7 @@ export function PageHeader({
   subtitle,
   extra,
 }: {
-  title: string
+  title: React.ReactNode
   subtitle?: string
   extra?: React.ReactNode
 }) {
