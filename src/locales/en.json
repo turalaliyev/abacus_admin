@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "settings": "Site settings",
+    "media": "Media files",
+    "navigation": "Navigation",
+    "team": "Team",
+    "services": "Services",
+    "stats": "Statistics",
+    "partners": "Partners",
+    "whyUs": "Why us",
+    "blog": "Blog",
+    "academy": "Academy",
+    "inquiries": "Inquiries"
+  },
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "save": "Save",
+    "yes": "Yes",
+    "no": "No",
+    "slug": "Slug",
+    "title": "Title",
+    "description": "Description",
+    "label": "Label",
+    "order": "Order",
+    "active": "Active",
+    "visible": "Visible",
+    "logout": "Sign out",
+    "admin": "Admin",
+    "contentLang": "Content language (AZ / EN / RU)"
+  },
+  "settings": {
+    "title": "Site settings",
+    "subtitle": "General info, hero and about texts",
+    "company": "Company details",
+    "social": "Social networks",
+    "hero": "Hero section",
+    "about": "About us",
+    "saved": "Settings saved",
+    "heroHint": "Use Media files for hero video and logo (hero_video, logo).",
+    "paragraphsHint": "Separate paragraphs with a blank line"
+  }
+}

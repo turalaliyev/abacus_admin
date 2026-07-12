@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #071525;
+  --color-navy-900: #0c2340;
+  --color-gold-500: #c9a227;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    @apply m-0 bg-slate-100 text-slate-800 antialiased;
+  }
+}
+
+/* Admin sidebar: full height + sticky collapse trigger */
+.admin-sider.ant-layout-sider {
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-sider .ant-layout-sider-children {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.admin-sider .admin-sider-menu {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.admin-sider .ant-layout-sider-trigger {
+  background: #071525 !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* TipTap rich text editor */
+.ProseMirror {
+  min-height: 160px;
+}
+
+.ProseMirror p {
+  margin: 0 0 0.5rem;
+}
+
+.ProseMirror p:last-child {
+  margin-bottom: 0;
+}
+
+.ProseMirror h2 {
+  margin: 0.75rem 0 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.ProseMirror h3 {
+  margin: 0.5rem 0 0.35rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  margin: 0.5rem 0;
+  padding-left: 1.25rem;
+}
+
+.ProseMirror ul {
+  list-style: disc;
+}
+
+.ProseMirror ol {
+  list-style: decimal;
+}
+
+.ProseMirror a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}

@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "dashboard": "İdarə paneli",
+    "settings": "Sayt parametrləri",
+    "media": "Media fayllar",
+    "navigation": "Naviqasiya",
+    "team": "Komanda",
+    "services": "Xidmətlər",
+    "stats": "Statistika",
+    "partners": "Partnyorlar",
+    "whyUs": "Niyə biz",
+    "blog": "Bloq",
+    "academy": "Akademiya",
+    "inquiries": "Müraciətlər"
+  },
+  "common": {
+    "add": "Əlavə et",
+    "edit": "Redaktə",
+    "save": "Saxla",
+    "yes": "Bəli",
+    "no": "Xeyr",
+    "slug": "Slug",
+    "title": "Başlıq",
+    "description": "Təsvir",
+    "label": "Etiket",
+    "order": "Sıra",
+    "active": "Aktiv",
+    "visible": "Görünür",
+    "logout": "Çıxış",
+    "admin": "Admin",
+    "contentLang": "Məzmun dili (AZ / EN / RU)"
+  },
+  "settings": {
+    "title": "Sayt parametrləri",
+    "subtitle": "Ümumi məlumatlar, hero və haqqımızda mətnləri",
+    "company": "Şirkət məlumatları",
+    "social": "Sosial şəbəkələr",
+    "hero": "Hero bölməsi",
+    "about": "Haqqımızda",
+    "saved": "Parametrlər saxlanıldı",
+    "heroHint": "Hero video və loqo üçün Media fayllar bölməsindən istifadə edin (hero_video, logo).",
+    "paragraphsHint": "Paraqrafları boş sətirlə ayırın"
+  }
+}
