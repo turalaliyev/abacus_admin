@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Required environment variables (Site settings → Environment variables):
+#   VITE_SUPABASE_URL
+#   VITE_SUPABASE_ANON_KEY
+# Redeploy after adding them — Vite bakes these in at build time.
